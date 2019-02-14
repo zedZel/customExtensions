@@ -3,7 +3,7 @@
     "metaData": {
         "icon": "images/token.svg"
     },
-    "type": "<custom C# class>",
+    "type": "Event",
     "lang":{
         "en-US": {
             "name": "TOKENS",
