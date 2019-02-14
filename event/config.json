@@ -28,5 +28,6 @@
       "url": "index.html"
     }
   },
-  "entrySourceGroupConfigUrl": "../entry-source-groups/tokens-management"
+  "entrySourceGroupConfigUrl": "../entry-source-groups/tokens-management",
+  "workflowApiVersion": "1.1"
 }
