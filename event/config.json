@@ -26,5 +26,5 @@
       "url": "index.html"
     }
   },
-  "entrySourceGroupConfigUrl": "../entry-source-groups/tokens-management"
+  "entrySourceGroupConfigUrl": "entrysourcegroupconfig.json"
 }
