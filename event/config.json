@@ -10,7 +10,7 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "12345"
+    "applicationExtensionKey": "<key from app center>"
   },
   "isEditable": true,
   "filterExpressionEnabled": false,
