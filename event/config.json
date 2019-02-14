@@ -1,14 +1,12 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "images/token.svg"
+    "icon": "images/token.gif"
   },
   "type": "Event",
   "lang": {
     "en-US": {
-      "name": "TOKENS",
-      "description": "",
-      "selectCountry": "TOKENS"
+      "name": "TOKENS"
     }
   },
   "configurationArguments": {
