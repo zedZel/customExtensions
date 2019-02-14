@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Token Mgmt</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript">
+        (function() {
+            var config = {
+                baseUrl: ''
+            };
+
+            var dependencies = [
+                'customEvent'
+            ];
+
+            require(config, dependencies);
+        })();
+    </script>
+
+    <!--Styles-->
+    <style type="text/css">
+        #data {
+            margin-left: 20px;
+        }
+        #data div {
+            margin-top: 10px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        #api-button {
+            display: none;
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>Token Mgmt</div>
+    <div id="token">
+        Your token data is:
+        <div id="data"></div>
+    </div>
+    <button id="api-button">Make Token-based API Call</button>
+</body>
+</html>

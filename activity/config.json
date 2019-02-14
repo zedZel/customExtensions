@@ -1,0 +1,25 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+        "icon": "images/token.gif",
+        "iconSmall": "images/token-sm.gif",
+        "category": "message",
+        "isConfigured": true
+    },
+    "type": "<custom C# class>",
+    "lang": {
+        "en-US": {
+            "name": "Token Management Activity",
+            "description": "An activity application extension for testing token management"
+        }
+    },
+    "configurationArguments": {
+        "applicationExtensionKey": "token-management"
+    },
+    "userInterfaces": {
+        "configModal": {
+            "height": 400,
+            "width": 1000
+        }
+    }
+}

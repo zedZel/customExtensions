@@ -1,0 +1,30 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+        "icon": "images/token.svg"
+    },
+    "type": "<custom C# class>",
+    "lang":{
+        "en-US": {
+            "name": "TOKENS",
+            "description": "",
+            "selectCountry": "TOKENS"
+        }
+    },
+    "configurationArguments": {
+        "applicationExtensionKey": "<key from app center>"
+    },
+    "isEditable": true,
+    "filterExpressionEnabled": false,
+    "summaryEnabled": false,
+
+    "wizardSteps": [
+        { "key": "TOKENS", "label": "TOKENS" }
+    ],
+    "userInterfaces": {
+        "configModal": {
+            "url": "index.html"
+        }
+    },
+    "entrySourceGroupConfigUrl": "../entry-source-groups/tokens-management"
+}
